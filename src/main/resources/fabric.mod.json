@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "mythicalmemories",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Mythical Memories",
+  "description": "A magically inspired storage mod, with the aspiration to one day be a magical alternative to AE2/RS",
   "authors": [
-    "Me!"
+    "Lyssieth <lys@lys.ee>"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/lyssieth/mythical-memories/",
+    "sources": "https://github.com/lyssieth/mythical-memories/"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/mythicalmemories/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "ee.lys.mythicalmemories.MythicalMemories"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mythicalmemories.mixins.json"
   ],
 
   "depends": {
@@ -33,6 +33,5 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }

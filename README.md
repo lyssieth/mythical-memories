@@ -1,9 +1,15 @@
-# Fabric Example Mod
+# Mythical Memories 
 
-## Setup
+A storage mod with a magical nature.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## Goals
 
-## License
+- [ ] A basic, expandable, storage system
+- [ ] Importing/exporting via magical devices
+- [ ] Something like the AE2 'Interface' and 'Storage Bus'
+- [ ] Automatic Crafting (stretch goal, my ability to code isn't *that* good)
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Inspiration
+
+I really like the concept of [Arcane Archives](https://www.curseforge.com/minecraft/mc-mods/arcane-archives), but I was saddened when it never updated past 1.12.  
+My inspirations come from AE2, Refined Storage, and of course my love of magic.
