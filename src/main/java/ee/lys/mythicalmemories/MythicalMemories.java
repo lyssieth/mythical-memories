@@ -19,7 +19,8 @@ public class MythicalMemories implements ModInitializer {
 
     @Override
     public void onInitialize() {
-		FieldRegistrationHandler.register(ItemInit.class, MOD_ID, false);
+        FieldRegistrationHandler.register(ItemInit.class, MOD_ID, false);
+        FieldRegistrationHandler.register(BlockInit.class, MOD_ID, false);
 
         LOGGER.info("Hello, mythical memories!");
     }
