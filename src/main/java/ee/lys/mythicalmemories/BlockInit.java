@@ -15,8 +15,6 @@ import net.minecraft.sound.BlockSoundGroup;
  * @author Lyssieth
  */
 public final class BlockInit implements BlockRegistryContainer {
-    private BlockInit() {
-    }
 
     public static final MemoryCore MEMORY_CORE = new MemoryCore(
             FabricBlockSettings

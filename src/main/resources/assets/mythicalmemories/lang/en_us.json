@@ -1,5 +1,5 @@
 {
   "itemGroup.mythicalmemories.group": "Mythical Memories",
-
-  "item.mythicalmemories.memory": "Memory"
+  "item.mythicalmemories.memory": "Memory",
+  "block.mythicalmemories.memory_core": "Memory Core"
 }
