@@ -18,6 +18,8 @@ jobs:
         uses: github/super-linter/slim@v4
         env:
           VALIDATE_ALL_CODEBASE: true
+          VALIDATE_BASH: false
+          VALIDATE_GOOGLE_JAVA_FORMAT: false
           DEFAULT_BRANCH: 1.18
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   build:
