@@ -22,6 +22,7 @@ public final class BlockInit implements BlockRegistryContainer {
                     .strength(5.0f)
                     .requiresTool()
                     .luminance(3)
+                    .nonOpaque()
                     .sounds(BlockSoundGroup.GLASS));
 
     @Override
