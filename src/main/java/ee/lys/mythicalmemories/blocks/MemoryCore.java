@@ -11,6 +11,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class MemoryCore extends Block {
+    /** The MemoryCore constructor I guess? */
     public MemoryCore(final Settings settings) {
         super(settings);
     }
