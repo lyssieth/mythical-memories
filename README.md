@@ -1,4 +1,4 @@
-# Mythical Memories 
+# Mythical Memories
 
 A storage mod with a magical nature.
 
@@ -7,7 +7,7 @@ A storage mod with a magical nature.
 - [ ] A basic, expandable, storage system
 - [ ] Importing/exporting via magical devices
 - [ ] Something like the AE2 'Interface' and 'Storage Bus'
-- [ ] Automatic Crafting (stretch goal, my ability to code isn't *that* good)
+- [ ] Automatic Crafting (stretch goal, my ability to code isn't _that_ good)
 
 ## Inspiration
 
