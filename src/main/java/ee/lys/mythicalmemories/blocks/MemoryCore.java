@@ -11,11 +11,11 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class MemoryCore extends Block {
-    /** 
+    /**
      * The MemoryCore constructor I guess?
      *
-     * @param settings The Settings of the block. 
-     * */
+     * @param settings The Settings of the block.
+     */
     public MemoryCore(final Settings settings) {
         super(settings);
     }
