@@ -11,12 +11,12 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class MemoryCore extends Block {
-    public MemoryCore(Settings settings) {
+    public MemoryCore(final Settings settings) {
         super(settings);
     }
 
     @Override
-    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
+    public final ActionResult onUse(final BlockState state, final World world, final BlockPos pos, final PlayerEntity player, final Hand hand, final BlockHitResult hit) {
         if (!world.isClient && player.getMainHandStack().isEmpty()) {
             player.sendMessage(Text.of("Hello, world!"), true);
         }

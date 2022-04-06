@@ -15,6 +15,8 @@ import net.minecraft.sound.BlockSoundGroup;
  * @author Lyssieth
  */
 public final class BlockInit implements BlockRegistryContainer {
+    private BlockInit() {
+    }
 
     public static final MemoryCore MEMORY_CORE = new MemoryCore(
             FabricBlockSettings
@@ -25,7 +27,7 @@ public final class BlockInit implements BlockRegistryContainer {
                     .sounds(BlockSoundGroup.GLASS));
 
     @Override
-    public BlockItem createBlockItem(Block block, String identifier) {
+    public BlockItem createBlockItem(final Block block, final String identifier) {
         return new BlockItem(block, new Item.Settings().group(MythicalMemories.MOD_GROUP));
     }
 }
